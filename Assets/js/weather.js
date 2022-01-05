@@ -1,5 +1,5 @@
 
-let apiKey = "3ac0d8db34de82819d13a9167239acc1";
+let apiKey = "4a7377a5955288be76d37b5fd28eca19";
 let searchBtn = $(".searchBtn");
 let searchInput = $(".searchInput");
 let tempEl = $(".temp");
@@ -168,7 +168,7 @@ function renderWeatherData(cityName, cityTemp, cityHumidity, cityWindSpeed, city
     windSpeedEl.text(`Wind Speed: ${cityWindSpeed} MPH`);
     uvIndexEl.text(`UV Index: ${uvVal}`);
     weatherIconEl.attr("src", cityWeatherIcon);
-    
+
 }
 
 function createForecastCard(date, icon, temp, humidity) {

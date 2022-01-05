@@ -32,7 +32,7 @@ header {
     margin-top: 0;
     text-align: center;
     font-size: xx-large;
-    background-color: rgb(10, 78, 10);
+    background-color: rgb(15, 144, 177);
 }
 
 h1, h3, p, li {
@@ -51,6 +51,7 @@ html {
 input {
     border: 1px solid #cecfd2;
     border-radius: 5px;
+    
 }
 
 
@@ -59,6 +60,7 @@ input {
     flex-direction: row;
     max-width: 640px;
     height: 100%;
+    
 }
 
 .search {
@@ -74,7 +76,7 @@ input {
     margin-top: 25px;
     border: solid 1px #cecfd2;
     margin-left: 5%;
-    min-width: 640px;
+    min-width: 1114px;
     padding: 12px 15px 15px 15px;
     height: 40%;
 }
@@ -97,7 +99,8 @@ input {
     border-radius: 5px;
     color: white;
     font-size: larger;
-    background-color: rgb(10, 78, 10);
+    background-color: rgb(15, 144, 177);
+    background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5)
 }
 
 .five-day-container .card-text {
